@@ -134,10 +134,10 @@ public class CameraActivity extends Activity implements View.OnClickListener {
 
         switch (mType) {
             case IDCardCamera.TYPE_IDCARD_FRONT:
-                mIvCameraCrop.setImageResource(R.mipmap.camera_idcard_front);
+                // mIvCameraCrop.setImageResource(R.mipmap.camera_idcard_front);
                 break;
             case IDCardCamera.TYPE_IDCARD_BACK:
-                mIvCameraCrop.setImageResource(R.mipmap.camera_idcard_back);
+                // mIvCameraCrop.setImageResource(R.mipmap.camera_idcard_back);
                 break;
         }
 
